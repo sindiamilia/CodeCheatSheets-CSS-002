@@ -1,1 +1,35 @@
-<center><h1>Test
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS</title>
+        <style>
+            body{
+                margin:0;
+                padding:0;
+            }
+            .pad10{
+                padding: 10px;
+            }
+            .fadeIn {
+                animation-name: fadeIn;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="fadeIn">
+            <div class="pad10">
+                Basic HTML Structure  
+            </div>
+        </div>
+    </body>
+</html>
